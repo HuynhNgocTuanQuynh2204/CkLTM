@@ -40,6 +40,7 @@ public class Start {
 
         frame.getContentPane().add(panel, BorderLayout.CENTER);
         frame.getContentPane().add(buttonPanel, BorderLayout.SOUTH);
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
 
         // Lấy địa chỉ IP và khởi động server ban đầu

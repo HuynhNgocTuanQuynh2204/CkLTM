@@ -30,6 +30,8 @@ public class Authentication extends JFrame {
         submitButton.addActionListener(e -> authenticate());
 
         pack();
+        setLocationRelativeTo(null); // Đưa giao diện vào giữa màn hình
+        setVisible(true); // Hiển thị cửa sổ
     }
 
     private void authenticate() {
